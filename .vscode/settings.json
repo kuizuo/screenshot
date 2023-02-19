@@ -1,0 +1,23 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.codeLens.test": true,
+  "deno.suggest.imports.hosts": {
+    "https://deno.land": true,
+    "https://x.nest.land": true,
+    "https://crux.land": true,
+    "http://deno.land": true
+  },
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.suggest.showStatusBar": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.enable": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
+}
